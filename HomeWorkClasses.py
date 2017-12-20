@@ -71,7 +71,6 @@ piggy = Pig()
 donald.name = "Дональдь"
 
 piggy.name = "Пигги"
-
 print(piggy.name)
 print(donald.name)
 donald.die()
