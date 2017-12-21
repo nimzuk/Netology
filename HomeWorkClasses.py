@@ -32,7 +32,7 @@ class Bird(Animal):
 
 
 class Cow(Mammal):
-    sound = "Moo!"
+    sound = "Mooooooo!"
     rus_alias = 'Корова'
 
 
