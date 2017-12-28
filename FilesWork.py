@@ -1,21 +1,3 @@
-# cook_book = {
-#   'яйчница': [
-#     {'ingridient_name': 'яйца', 'quantity': 2, 'measure': 'шт.'},
-#     {'ingridient_name': 'помидоры', 'quantity': 100, 'measure': 'гр.'}
-#     ],
-#   'стейк': [
-#     {'ingridient_name': 'говядина', 'quantity': 300, 'measure': 'гр.'},
-#     {'ingridient_name': 'специи', 'quantity': 5, 'measure': 'гр.'},
-#     {'ingridient_name': 'масло', 'quantity': 10, 'measure': 'мл.'}
-#     ],
-#   'салат': [
-#     {'ingridient_name': 'помидоры', 'quantity': 100, 'measure': 'гр.'},
-#     {'ingridient_name': 'огурцы', 'quantity': 100, 'measure': 'гр.'},
-#     {'ingridient_name': 'масло', 'quantity': 100, 'measure': 'мл.'},
-#     {'ingridient_name': 'лук', 'quantity': 1, 'measure': 'шт.'}
-#     ]
-#   }
-
 def make_cook_book_from_file():
     cook_book = {}
     with open('cookbook.txt') as cookbook_file:
